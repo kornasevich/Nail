@@ -11,9 +11,7 @@ export default class SubHeader extends Component{
           <div className="sub-header__socials">
             <Instagram color="black"/>
           </div>
-          <div className="sub-header__contacts">
-            <span>Contacts: +375 (33) 308-05-28</span>
-          </div>
+
         </div>
       </div>
     )
