@@ -1,4 +1,17 @@
 .sub-header{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  padding-top: 40px;
+  &__image{
+    height: 500px;
+  }
+
+  &__description{
+    width: 300px;
+    padding: 40px;
+    background-color: white;
+    height: fit-content;
+    margin: auto 0 auto -25px;
+    font-size: 20px;
+  }
 }
